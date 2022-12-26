@@ -1,31 +1,42 @@
-HELP.md
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+#target
+*/target/**
+*/target/*
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+/.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
+#.idea
 .idea
-*.iws
-*.iml
-*.ipr
+.prefs
+.idea/*
+.iml
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
+#compiled class file
+*.class
 
-### VS Code ###
-.vscode/
+#Log file
+*.log
+
+#Package File #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.rar
+*.tar.gz
+
+#eclipse
+.project
+**/.settings/
+*.bpmn2d
+/.metadata/
+*.dubbo/
